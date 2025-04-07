@@ -408,6 +408,70 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1885868811}
   m_SourcePrefab: {fileID: 100100000, guid: 0616bccbc5b5f1b4394612a16b0f11fd, type: 3}
+--- !u!1001 &332613920
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.343098
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1102233e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.3114595
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_Name
+      value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 978993492}
+  m_SourcePrefab: {fileID: 100100000, guid: 1ab911b299a723643a5989b132c17922, type: 3}
 --- !u!1001 &504884948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -827,6 +891,32 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1868728722}
   m_SourcePrefab: {fileID: 100100000, guid: 0616bccbc5b5f1b4394612a16b0f11fd, type: 3}
+--- !u!1 &978993491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1ab911b299a723643a5989b132c17922, type: 3}
+  m_PrefabInstance: {fileID: 332613920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &978993492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978993491}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1438298187 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0616bccbc5b5f1b4394612a16b0f11fd, type: 3}
@@ -1549,3 +1639,4 @@ SceneRoots:
   - {fileID: 1705359211}
   - {fileID: 134481667}
   - {fileID: 529310335}
+  - {fileID: 332613920}

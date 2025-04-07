@@ -54,6 +54,10 @@ public class PlayerMovement : MonoBehaviour
             Destroy(other.gameObject);                      //  
             Debug.Log($"코인 수집 : {coinCount}/{totalCoins}");
         }
-        if (other.CompareTag("Door"))
+        if (other.CompareTag("Door") && coinCount >= totalCoins)
+        {
+            Debug.Log("게임클리어");
+            //이후 완료 연출 및 Scene 전환 한다
+        }
     }
 }
