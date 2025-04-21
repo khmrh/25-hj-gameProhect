@@ -1060,6 +1060,12 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 2120912788}
   JumpForce: 5
+  trunSpeed: 10
+  fallMultiplayer: 2.5
+  lowflallMutiplayer: 2
+  coyoteTime: 0.15
+  coyoteTImeCounter: 0
+  realGrouned: 1
   isGround: 1
   coinCount: 0
   totalCoins: 5
@@ -1070,7 +1076,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120912782}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 06737d2e5e25112498c282e10543f9e9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
