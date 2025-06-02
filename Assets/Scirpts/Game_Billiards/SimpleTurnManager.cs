@@ -22,15 +22,15 @@ public class SimpleTurnManager : MonoBehaviour
 
     void CheckAllBalls()
     {
-        SimpleBallContoller[] allBalls = FindObjectOfType<SimpleBallContoller>();
-        anyBallMoving = false;
+       // SimpleBallContoller[] allBalls = FindObjectOfType<SimpleBallContoller>();
+        //anyBallMoving = false;
 
-        foreach (SimpleBallContoller ball in allBalls)
+       // foreach (SimpleBallContoller ball in allBalls)
         {
-            if (Ball.isMoving())
+         //   if (Ball.isMoving())
             {   
-                anyBallMoving = true;
-                break;
+              //  anyBallMoving = true;
+              //  break;
             }
         }
     }

@@ -41,14 +41,14 @@ public class SimpleBallContoller : MonoBehaviour
         rb.drag = 1;
     }
 
-    public bool isMoveing()
+    public bool isMoving()
     {
         return rb.velocity.magnitude > 0.2f;
     }
 
     void Handleinput()
     {
-        if(isMoveing()) return;
+        if(isMoving()) return;
 
         if (Input.GetMouseButtonDown(0))
         {
